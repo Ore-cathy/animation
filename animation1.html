@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8">
+    <title> you are mine </title>
+    <style type="text/css">
+    body{padding: 33;
+        animation-name: me;
+          animation-duration: 10s;
+    }
+    @keyframes me{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+    .box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;}
+    .head{
+  position: relative;
+  top: 16.5%;
+  left: 25%;
+  width: 25%;
+  height: 35%;
+  border-radius: 50%;
+  animation-name: head;
+  animation-duration: 10s;
+  background: rgb(33, 62, 77);
+  
+}
+
+.blade1{
+  position: absolute;
+  width: 150%;
+  height: 35%;
+  left: -80%;
+  top: 10%;
+  transform: rotate(15deg);
+  background:  rgb(33, 62, 77);
+  border-radius: 30%;
+  animation-name: blade1;
+  animation-duration: 10s;
+  z-index: 1;}
+  
+.blade2{
+  position: absolute;
+  width: 150%;
+  height: 35%;
+  right: -80%;
+  top: 10%;
+  transform: rotate(-15deg);
+  background:  rgb(33, 62, 77);
+  border-radius: 30%;
+  animation-name: blade2;
+  animation-duration: 10s;
+  z-index: 1;}
+ 
+
+  .blade3{
+    position: absolute;
+  width: 35%;
+  height: 110%;
+  left: 35%;
+  top: 80%;
+  transform: rotate(0deg);
+  background:  rgb(33, 62, 77);
+  border-radius: 30%;
+  animation-name: blade3;
+  animation-duration: 10s;
+  z-index: 1;}
+
+
+
+    </style>
+    </head>
+   <body>
+         <div class="box">
+         <div class="head">
+             <!-- Left Ear ~ Light Gray-->
+      <div class="blade1">
+            
+           </div>
+           
+           <!-- Right Ear ~ Light Gray-->
+            <div class="blade2">
+             
+           </div>
+             <!-- Right Ear ~ Light Gray-->
+             <div class="blade3">
+             </div>
+         </div>
+         </div>
+   </body>
+   </html>   
